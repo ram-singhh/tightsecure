@@ -1,11 +1,10 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "cleanUrls": true,
-  "redirects": [
+  "rewrites": [
     {
-      "source": "/feedback",
-      "destination": "feedback/index.html",
-      "permanent": false
+      "source": "/survey",
+      "destination": "/survey/index.html"
     }
   ]
 }
