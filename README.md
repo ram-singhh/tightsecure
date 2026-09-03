@@ -71,27 +71,6 @@ This project uses **Vite** for local development and bundling.
 
 Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 
-### Local Development
-
-1. Clone or download this project.
-2. Install the dependencies:
-   ```bash
-   npm install
-   ```
-3. Start the local development server:
-   ```bash
-   npm run dev
-   ```
-4. Open the displayed URL (typically `http://localhost:5173`) in your browser.
-
-### Production Build
-
-To build the static files for production deployment:
-```bash
-npm run build
-```
-This generates optimized static files in the `dist/` directory.
-
 ### Preview Build
 
 To preview the built production app locally:
